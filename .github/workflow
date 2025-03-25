@@ -1,0 +1,42 @@
+name: Deploy Branch Pages
+
+on:
+  push:
+    branches:
+      - main
+      - ass2
+      - final
+      # 添加你想要部署的所有分支
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: ${{ github.ref_name }}-environment
+      url: ${{ steps.deployment.outputs.page_url }}
+    
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      
+      - name: Build
+        run: |
+          # 这里可以添加构建步骤
+          # 例如将 content.md 转换为 index.html
+          if [ -f "content.md" ]; then
+            echo "<!DOCTYPE html><html><head><meta charset='utf-8'><title>Assignment - ${{ github.ref_name }}</title><link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/github-markdown-css@5.1.0/github-markdown.min.css'></head><body class='markdown-body'>" > index.html
+            npx marked content.md >> index.html
+            echo "</body></html>" >> index.html
+          fi
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: '.'
+      
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
