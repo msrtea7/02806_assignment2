@@ -1,11 +1,15 @@
-# Hi you 
+# Hi 
 
-> We are group 6. This repository is for 02247 assignment 2 and final project
+We are group 22. This repository is for 02247 assignment 2 submission
 
-|Task|name(branch)|
-|---|---|
-|Assignment 2|ass2|
-|Final project|final|
+For simplicity, we didn't use any static site framework but easy html+js+css
+
+Also we use github repository pages <https://pages.github.com/> of hosting website. <br>
+We think it's clearer since it's "repository" - based
+
+
+
+
 
 
 

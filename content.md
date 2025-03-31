@@ -2,7 +2,7 @@
 
 <div style="text-align: center">
 <i>Li, Junrui & Fu, Tongzheng<br>
-Group <b>6</b><br>
+Group <b>22</b><br>
 March 30, 2025</i>
 </div>
 
@@ -105,7 +105,7 @@ These time patterns provide practical guidance:
 
 ## Contribution
 
-<h5 align="center">Table 3: <b>Group 6</b> Contribution Matrix</h5>
+<h5 align="center">Table 3: <b>Group 22</b> Contribution Matrix</h5>
 
 <div style="display: flex; justify-content: center;">
 
