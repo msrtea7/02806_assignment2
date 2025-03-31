@@ -1,0 +1,121 @@
+<!-- <div class="article-body inline-flex "><iframe title="Asian Population in San Francisco Neighborhoods" aria-label="Map" id="datawrapper-chart-qdsmo" src="https://datawrapper.dwcdn.net/qdsmo/11/" scrolling="no" frameborder="0" style="width: 0px; border: medium; min-width: 100% !important; height: 763px;" height="779" data-external="1"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script></div> -->
+<!-- <div class="article-body inline-flex">
+  <iframe title="Asian Population in San Francisco Neighborhoods" 
+    aria-label="Map" 
+    id="datawrapper-chart-qdsmo" 
+    src="https://datawrapper.dwcdn.net/qdsmo/11/" 
+    scrolling="no" 
+    frameborder="0" 
+    style="width: 0px; border: none; min-width: 100% !important; height: 800px;" 
+    height="800" 
+    data-external="1"></iframe>
+  <script type="text/javascript">
+    !function(){"use strict";window.addEventListener("message",(function(e){
+      if(void 0!==e.data["datawrapper-height"]){
+        var t=document.querySelectorAll("iframe");
+        for(var a in e.data["datawrapper-height"])
+          for(var r=0;r<t.length;r++){
+            if(t[r].contentWindow===e.source)
+              t[r].style.height=(parseInt(e.data["datawrapper-height"][a])+20)+"px"
+          }
+      }
+    }))}();
+  </script>
+</div> -->
+
+
+## 旧金山各社区西班牙裔/拉丁裔人口分布
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
+  <!-- 第一个地图 -->
+  <div style="flex: 1; min-width: 200px; max-width: 48%;">
+    <iframe title="Asian Population in San Francisco Neighborhoods" 
+      aria-label="Map" 
+      id="datawrapper-chart-qdsmo" 
+      src="https://datawrapper.dwcdn.net/qdsmo/11/" 
+      scrolling="no" 
+      frameborder="0" 
+      style="width: 0px; border: none; min-width: 100% !important; height: 800px;" 
+      height="500" 
+      data-external="1"></iframe>
+  </div>
+  
+  <!-- 第二个地图 -->
+  <div style="flex: 1; min-width: 200px; max-width: 48%;">
+    <iframe title="Hispanic or Latino Origin Population in San Francisco Neighborhoods" 
+      aria-label="Map" 
+      id="datawrapper-chart-a9p91" 
+      src="https://datawrapper.dwcdn.net/a9p91/6/" 
+      scrolling="no" 
+      frameborder="0" 
+      style="width: 0px; border: none; min-width: 100% !important; height: 800px;" 
+      height="500" 
+      data-external="1"></iframe>
+  </div>
+  <!-- 第三个地图 -->
+  <div style="flex: 1; min-width: 200px; max-width: 48%;">
+    <iframe title="Hispanic or Latino Origin Population in San Francisco Neighborhoods" 
+      aria-label="Map" 
+      id="datawrapper-chart-a9p91" 
+      src="https://datawrapper.dwcdn.net/S4to1/11/" 
+      scrolling="no" 
+      frameborder="0" 
+      style="width: 0px; border: none; min-width: 100% !important; height: 800px;" 
+      height="500" 
+      data-external="1"></iframe>
+  </div>
+</div>
+
+<script type="text/javascript">
+  !function(){"use strict";window.addEventListener("message",(function(e){
+    if(void 0!==e.data["datawrapper-height"]){
+      var t=document.querySelectorAll("iframe");
+      for(var a in e.data["datawrapper-height"])
+        for(var r=0;r<t.length;r++){
+          if(t[r].contentWindow===e.source)
+            t[r].style.height=(parseInt(e.data["datawrapper-height"][a])*0.7)+"px" // 缩放到原高度的70%
+        }
+    }
+  }))}();
+</script>
+
+
+
+<div style="display: flex; flex-wrap: wrap; gap: 10px; justify-content: space-between;">
+  <!-- 第一个地图 -->
+  <div style="text-align: center;">
+  <iframe src="./visualizations/polarBar/crime_time_distribution.html" width="100%" height="600px" frameborder="0"></iframe>
+  </div>
+  
+  <!-- 第二个地图 -->
+  <div style="text-align: center;flex: 1; min-width: 200px; max-width: 48%;">
+
+  <iframe src="./visualizations/heatmap/motor_vehicle_theft_heatmap.html" width="100%" height="600px" frameborder="0"></iframe>
+  </div>
+</div>
+
+
+<div class="map-container">
+  <iframe src="./visualizations/polarBar/crime_time_distribution.html" width="500px" height="500px" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+<div class="map-container">
+  <iframe src="./visualizations/polarBar/crime_time_distribution.html" width="500px" height="500px" frameborder="0" scrolling="no"></iframe>
+</div>
+
+
+
+
+
+
+
+<div style="text-align: center;">
+  <iframe src="./visualizations/line/crime_trends_2.html" width="100%" height="600px" frameborder="0"></iframe>
+  </div>
+  
+  
+  <div class="map-container">
+      <iframe src="./visualizations/map/heat_map.html" width="100%" height="500px" frameborder="0" scrolling="no"></iframe>
+  </div>
