@@ -8,7 +8,9 @@ March 30, 2025</i>
 
 ## Introduction
 
-This analysis examines motor vehicle theft in San Francisco using open crime data from the San Francisco Police Department ([available here](https://datasf.org/opendata/)). The dataset covers 2003 to present, showing how vehicle theft patterns have changed across time and locations in the city.
+This analysis examines motor vehicle theft in San Francisco using open crime data from the San Francisco Police Department ([available here](https://datasf.org/opendata/)). This comprehensive dataset contains various crime records from 2003 to present, including incident categories, dates, times, locations, and police districts. 
+
+For our study, we focused specifically on the spatial and temporal aspects of motor vehicle theft. We filtered and cleaned the data to analyze how vehicle theft patterns have evolved over time and across different city locations. Table 1 below shows the key data fields we used in our analysis.
 
 <h5 align="center">Table 1: SF crime data example</h5>
 <figure style="text-align: center;">
