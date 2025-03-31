@@ -86,8 +86,8 @@ Our 24-hour analysis (Figure 3) reveals clear patterns in when vehicle thefts oc
 <div style="text-align: center;">
   <h5>Fig. 3: SF Motor Vehicle Theft 24h Distribution Within A Year</h5>
   <iframe src="./visualizations/polarBar/crime_time_distribution.html" width="500px" height="600px" frameborder="0"></iframe>
-  <figcaption>Select a specific year (2003-2024) from the select box and hover the mouse <br> 
-              over the sector to view the specific incident numbers. The data for 25 years<br>
+  <figcaption>Select a specific year (2003-2024) from the select box and hover <br> the mouse
+              over the sector to view the specific incident numbers. <br>The data for 2025
               are excluded for incompleteness.</figcaption>
 </div>
 
