@@ -2,6 +2,7 @@
 
 <div style="text-align: center">
 <i>Li, Junrui & Fu, Tongzheng<br>
+Group <b>6</b><br>
 March 30, 2025</i>
 </div>
 
@@ -22,7 +23,9 @@ This analysis examines motor vehicle theft in San Francisco using open crime dat
 
 ## The Dramatic Decline: Technology Turns the Tide
 
-Our analysis of the six most common crimes revealed something surprising about motor vehicle theft (Figure 1). While most crime categories followed similar patterns, especially during the 2020 pandemic, vehicle theft showed a unique trend: it dropped by about 50% between 2005 and 2006.
+Our analysis of the six most common crimes revealed something remarkable about motor vehicle theft (Figure 1). Over the very first few years, while most crime categories maintained relatively stable patterns within their own ranges, vehicle theft displayed a dramatic anomaly. 
+
+Between 2005 and 2006, motor vehicle theft rates suddenly plummeted to less than half their previous levels. This striking drop stands in sharp contrast to the contemporaneous consistent patterns seen in other crime categories.
 
 <div style="text-align: center;">
 <h5>Fig. 1: SF Monthly Top Crime Trends</h5>
@@ -30,9 +33,15 @@ Our analysis of the six most common crimes revealed something surprising about m
 <figcaption>Line chart showing monthly-yearly trends of top 6 crime categories from 2003 to 2025. <br>The figure is interactively featuring zoom, selection, and hover information.</figcaption>
 </div>
 
-This sharp decline matches the timing of major improvements in car security. Before 2005, vehicle theft was so common that the federal government created the ["Watch Your Car" program](https://www.ojp.gov/pdffiles1/bja/fs000261.pdf). Early technology like EDRs, GPS, and E-ZPass systems had weaknesses that thieves could exploit, as noted in ["How Technology Drives Vehicular Privacy"](https://lorrie.cranor.org/pubs/vehicular-privacy.pdf).
 
-Everything changed in 2005-2006 when car manufacturers widely adopted advanced anti-theft technologies ([source](https://securitytoday.com/articles/2007/10/10/study-car-thefts.aspx)). The impact was immediate and dramatic - theft rates fell sharply and stayed relatively stable for years afterward. This shows how technological innovation can effectively combat specific crime types.
+
+This sharp decline matches the timing of major improvements in car security. During late 20s and early 21s, vehicle theft was so common that even the federal government started a so-called ["Watch Your Car" program](https://www.ojp.gov/pdffiles1/bja/fs000261.pdf). As a possible factor, Early in-car technology at that time like EDRs, GPS, and E-ZPass systems had weaknesses that thieves could exploit. This is noted in a 2006 thesis called ["How Technology Drives Vehicular Privacy"](https://lorrie.cranor.org/pubs/vehicular-privacy.pdf).
+
+And everything changed so quick in 2005-2006 when car manufacturers widely adopted advanced anti-theft technologies ([source](https://securitytoday.com/articles/2007/10/10/study-car-thefts.aspx)). The impact was immediate and dramatic - theft rates fell sharply and stayed relatively stable for years afterward. 
+
+> Just a notion here, in this 'blog' like article, we choose not to cite the sources we use in a 'academic' way. 
+> 
+> Instead, for all of them we decide to cite them by using web links.
 
 ## Persistent Hotspots: The Geography of Vehicle Theft
 
@@ -45,9 +54,24 @@ Our heatmap of vehicle theft locations from 2003-2024 (Figure 2) shows consisten
 </div>
 <br>
 
-Two areas consistently stand out as high-risk zones: northeastern San Francisco and the Mission District to its south. These neighborhoods have remained theft hotspots for over 20 years, suggesting deeply rooted patterns in criminal activity.
+Two areas consistently stand out as high-risk zones: northeastern San Francisco and the Mission District to its south. These neighborhoods have remained theft hotspots for over 20 years, suggesting deeply rooted patterns in criminal activity. Unfortunately, we failed finding the exact pattern, but the table 2 below are feature we found with these 2 areas.
 
-An interesting shift occurred after 2017: while the overall number of thefts remained stable since 2010, the geographic distribution became more concentrated in specific areas. This concentration peaked during 2020, the first year of the COVID-19 pandemic, when vehicle thefts became highly localized in these traditional hotspots.
+
+<h5 align="center">Table 2: Features for Hotspots</h5>
+
+<div style="display: flex; justify-content: center;">
+
+| Factor | Finding | Source |
+|---|---|---|
+| Income | Large wealth disparity within the region | [Map - household income by district](https://datawrapper.dwcdn.net/PZMuj/7/) |
+| Race | Complex racial distribution, especially in Mission District area | [Map - race distribution](https://datawrapper.dwcdn.net/S4to1/11/) |
+| Transportation | Dense routes, transportation hub, busy area | [TNCs report 2018](https://www.sfmta.com/sites/default/files/reports-and-documents/2019/01/sfmta_mobility_trends_report_2018.pdf) |
+| Car Ownership | Extremely high car-free rate in the northwest | [Transpo Maps](https://transpomaps.org/projects/car-ownership/ca/san-francisco) |
+
+</div>
+
+
+However, we then found a interesting shift occurred after 2017: while the overall number of thefts remained stable since 2010(check Fig. 1), the geographic distribution became more concentrated in specific areas. This concentration peaked during 2020, the first year of the COVID-19 pandemic, when vehicle thefts became highly localized in these traditional hotspots.
 
 This geographic consistency offers valuable insights for prevention:
 
@@ -67,7 +91,7 @@ Our 24-hour analysis (Figure 3) reveals clear patterns in when vehicle thefts oc
               are excluded for incompleteness.</figcaption>
 </div>
 
-Since 2003, vehicle thefts have consistently peaked between 6 PM and 11 PM, creating a clear evening vulnerability window. During daylight hours, noon emerges as a secondary peak, possibly when vehicle owners are distracted by lunch activities and parking lots experience high turnover.
+Since 2003, vehicle thefts have consistently peaked between *6 PM* and *11 PM*, creating a clear evening vulnerability window. During daylight hours, noon emerges as a secondary peak, possibly when vehicle owners are distracted by lunch activities and parking lots experience high turnover.
 
 These time patterns provide practical guidance:
 
@@ -77,35 +101,27 @@ These time patterns provide practical guidance:
 
 
 
-<!-- >
-> here is citasd
-> |Factor|发现|Source|
-|---|---|---|
-|收入|区域内贫富差距大|网址|
-|种族|种族分布复杂，尤其是Mission District地区|网址|
-|交通|路线稠密，交通枢纽，繁华地带|网址|
-|Car Ownership|西北部car free率很高，是SF洼地|网址|
-> -->
-
-
 ## Contribution
 
+<h5 align="center">Table 3: <b>Group 6</b> Contribution Matrix</h5>
 
-<h5>Table 3: <b>Group 6</b> Contribution matrix</h5>
-<figure style="text-align: center;">
+<div style="display: flex; justify-content: center;">
 
 |Task|Li, Junrui|Fu, Tongzheng|
 |:---|:---:|:---:|
 |Diagram - bokeh line chart|🔸||
 |Diagram - folium heatmap||🔸|
-|Diagram - bohek polar bar chart|🔸||
+|Diagram - bokeh polar bar chart|🔸||
 |Topic mining||🔸|
 |Word content||🔸|
 |Formatting|🔸||
 |Web hosting|🔸||
 
+</div>
 </figure>
-🔸 means mainly implemented by the team member
 
+<div style="text-align: center;">
+🔸 means mainly implemented by the team member
+</div>
 
 
