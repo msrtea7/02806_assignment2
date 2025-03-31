@@ -123,7 +123,11 @@ These time patterns provide practical guidance:
 </figure>
 
 <div style="text-align: center;">
-🔸 means mainly implemented by the team member
+
+🔸 means mainly implemented by the team member,
+
 </div>
+
+The source code for this assignment is here: <https://github.com/msrtea7/02806_assignment2>
 
 
